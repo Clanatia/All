@@ -1,1 +1,1 @@
-# This Folder is ect files folder
+# This Folder is etc files folder
