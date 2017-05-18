@@ -1,7 +1,7 @@
 # This Folder is etc files folder
 
 
-##Install Opencv (Anaconda python 3)
+## Install Opencv (Anaconda python 3)
     
     conda install --channel https://conda.anaconda.org/menpo opencv3
     
