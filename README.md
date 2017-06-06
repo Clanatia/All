@@ -8,4 +8,6 @@
     
     conda install -c menpo opencv3
 
+## Homework4 video link
     
+    https://youtu.be/78Iclo7f-zg
