@@ -10,4 +10,4 @@
 
 ## Homework4 video link
     
-    https://youtu.be/78Iclo7f-zg
+    https://www.youtube.com/watch?v=elj4pxEmFOY
