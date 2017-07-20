@@ -1,7 +1,7 @@
 # This Folder is etc files folder
 
 ##Tensorflow 한글 영상 강의 자료
-    https://drive.google.com/file/d/0B_AgfGkstx4kX2JPVDNab2c3NFU/view?usp=sharing
+    https://drive.google.com/file/d/0B_AgfGkstx4kX2JPVDNab2c3NFU/view?usp=sharing
 
 ## CUDAnn file link
     https://drive.google.com/file/d/0B_AgfGkstx4kdnpXcHBuakQxOG8/view?usp=sharing
