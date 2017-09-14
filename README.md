@@ -1,7 +1,16 @@
 # This Folder is etc files folder
 
 ##Tensorflow 한글 영상 강의 자료
-    https://drive.google.com/file/d/0B_AgfGkstx4kX2JPVDNab2c3NFU/view?usp=sharing
+    https://drive.google.com/file/d/0B_AgfGkstx4kX2JPVDNab2c3NFU/view?usp=sharing
+
+##딥러닝 한글강의2
+    http://hunkim.github.io/ml/
+
+##Deep API  (파이선 , NodeJS, object c ..)
+    https://deepai.org/ai-image-processing
+     
+##딥러닝 코드 및 자료링크모음
+    https://github.com/mrgloom/awesome-semantic-segmentation
 
 ## CUDAnn file link
     https://drive.google.com/file/d/0B_AgfGkstx4kdnpXcHBuakQxOG8/view?usp=sharing
