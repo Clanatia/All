@@ -15,8 +15,9 @@
 
 
 ## CUDAnn file link
-    ##5.1ver (befor tensorflow 1.2) https://drive.google.com/file/d/0B_AgfGkstx4kdnpXcHBuakQxOG8/view?usp=sharing
-    ##6.0ver (teonsorflw 1.3) https://drive.google.com/open?id=0B_AgfGkstx4keXhRV2x5M0NBRHc
+    
+    #5.1ver (befor tensorflow 1.2) https://drive.google.com/file/d/0B_AgfGkstx4kdnpXcHBuakQxOG8/view?usp=sharing
+    #6.0ver (teonsorflw 1.3) https://drive.google.com/open?id=0B_AgfGkstx4keXhRV2x5M0NBRHc
 
 ## Install Opencv (Anaconda python 3)
     
