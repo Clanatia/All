@@ -15,6 +15,9 @@
 
 ##책Download Site
    https://www.academia.edu/
+   
+##python opencv face dection code (windows working)
+   ##https://github.com/informramiz/opencv-face-recognition-python
 
 ## CUDAnn file link    
     #5.1ver (befor tensorflow 1.2) https://drive.google.com/file/d/0B_AgfGkstx4kdnpXcHBuakQxOG8/view?usp=sharing
