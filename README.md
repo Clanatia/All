@@ -13,6 +13,8 @@
 ##딥러닝 코드 및 자료링크모음
     https://github.com/mrgloom/awesome-semantic-segmentation
 
+##책Download Site
+   https://www.academia.edu/
 
 ## CUDAnn file link    
     #5.1ver (befor tensorflow 1.2) https://drive.google.com/file/d/0B_AgfGkstx4kdnpXcHBuakQxOG8/view?usp=sharing
