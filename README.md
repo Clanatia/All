@@ -21,18 +21,22 @@
    
    
 ##Ubunto 16 install nvidia cuda install
-  ##https://marcnu.github.io/2016-08-17/Tensorflow-v0.10-installed-from-scratch-Ubuntu-16.04-CUDA8.0RC-cuDNN5.1-1080GTX/
+
+  #https://marcnu.github.io/2016-08-17/Tensorflow-v0.10-installed-from-scratch-Ubuntu-16.04-CUDA8.0RC-cuDNN5.1-1080GTX/
   
-#torch error - gcc update
-   ubunto14에서..
-   sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-   sudo apt-get update
-   sudo apt-get install gcc-5 g++-5
+##torch error - gcc update
+
+   #ubunto14에서..
+   #sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+   #sudo apt-get update
+   #sudo apt-get install gcc-5 g++-5
    
 #err (OpenBLAS Probleam) : recipe for target '../libopenblas_haswellp-r0.3.0.dev.so' failed
+
   #need downgrade gfortran : sudo apt-get install gfortran-4.9
    
 #error  cuda 9.0 "error: more than one operator "==" matches these operands" (https://github.com/torch/cutorch/issues/797)
+
    #insert export TORCH_NVCC_FLAGS="-D__CUDA_NO_HALF_OPERATORS__"
    
 ##torch
