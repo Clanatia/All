@@ -24,7 +24,6 @@
   ##https://marcnu.github.io/2016-08-17/Tensorflow-v0.10-installed-from-scratch-Ubuntu-16.04-CUDA8.0RC-cuDNN5.1-1080GTX/
   
 #torch error - gcc update
-
    ubunto14에서..
    sudo add-apt-repository ppa:ubuntu-toolchain-r/test
    sudo apt-get update
@@ -37,7 +36,6 @@
    #insert export TORCH_NVCC_FLAGS="-D__CUDA_NO_HALF_OPERATORS__"
    
 ##torch
-
   http://torch.ch/docs/getting-started.html
   git clone https://github.com/torch/distro.git ~/torch --recursive
   cd ~/torch; bash install-deps;
