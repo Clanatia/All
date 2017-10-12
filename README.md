@@ -18,6 +18,10 @@
    
 ##python opencv face dection code (windows working)
    ##https://github.com/informramiz/opencv-face-recognition-python
+   
+   
+##Ubunto 16 install nvidia cuda install
+  ##https://marcnu.github.io/2016-08-17/Tensorflow-v0.10-installed-from-scratch-Ubuntu-16.04-CUDA8.0RC-cuDNN5.1-1080GTX/
 
 ## CUDAnn file link    
     #5.1ver (befor tensorflow 1.2) https://drive.google.com/file/d/0B_AgfGkstx4kdnpXcHBuakQxOG8/view?usp=sharing
