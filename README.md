@@ -24,14 +24,18 @@
   ##https://marcnu.github.io/2016-08-17/Tensorflow-v0.10-installed-from-scratch-Ubuntu-16.04-CUDA8.0RC-cuDNN5.1-1080GTX/
   
 #torch error - gcc update
+
    ubunto14에서..
    sudo add-apt-repository ppa:ubuntu-toolchain-r/test
    sudo apt-get update
    sudo apt-get install gcc-5 g++-5
-#err (OpenBLAS Probleam): recipe for target '../libopenblas_haswellp-r0.3.0.dev.so' failed
+   
+#err (OpenBLAS Probleam) : recipe for target '../libopenblas_haswellp-r0.3.0.dev.so' failed
+
   need downgrade gfortran : sudo apt-get install gfortran-4.9
    
 ##torch
+
   http://torch.ch/docs/getting-started.html
   git clone https://github.com/torch/distro.git ~/torch --recursive
   cd ~/torch; bash install-deps;
