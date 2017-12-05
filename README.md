@@ -1,41 +1,41 @@
 # This Folder is etc files folder
 
-##Tensorflow 한글 영상 강의 자료
+## Tensorflow 한글 영상 강의 자료
     https://drive.google.com/file/d/0B_AgfGkstx4kX2JPVDNab2c3NFU/view?usp=sharing
 
-##딥러닝 한글강의2
+## 딥러닝 한글강의2
     http://hunkim.github.io/ml/
 
-##Deep API  (파이선 , NodeJS, object c ..)
+## Deep API  (파이선 , NodeJS, object c ..)
     https://deepai.org/ai-image-processing
      
 
-##딥러닝 코드 및 자료링크모음
+## 딥러닝 코드 및 자료링크모음
     https://github.com/mrgloom/awesome-semantic-segmentation
 
-##책Download Site
+## 책Download Site
     https://www.academia.edu/
    
-##python opencv face dection code (windows working)
+## python opencv face dection code (windows working)
     https://github.com/informramiz/opencv-face-recognition-python
    
-##gan Url
+## gan Url
     https://github.com/hwalsuklee/tensorflow-generative-model-collections
    
-##Ubunto 16 install nvidia cuda install
+## Ubunto 16 install nvidia cuda install
     https://marcnu.github.io/2016-08-17/Tensorflow-v0.10-installed-from-scratch-Ubuntu-16.04-CUDA8.0RC-cuDNN5.1-1080GTX/
   
-##torch error - gcc update
- ubunto14에서..
- sudo add-apt-repository ppa:ubuntu-toolchain-r/test
- sudo apt-get update
- sudo apt-get install gcc-5 g++-5
+## torch error - gcc update
+    ubunto14에서..
+    sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+    sudo apt-get update
+    sudo apt-get install gcc-5 g++-5
    
-#err (OpenBLAS Probleam) : recipe for target '../libopenblas_haswellp-r0.3.0.dev.so' failed
- need downgrade gfortran : sudo apt-get install gfortran-4.9
+# err (OpenBLAS Probleam) : recipe for target '../libopenblas_haswellp-r0.3.0.dev.so' failed
+    need downgrade gfortran : sudo apt-get install gfortran-4.9
    
-#error  cuda 9.0 "error: more than one operator "==" matches these operands" (https://github.com/torch/cutorch/issues/797)
- insert export TORCH_NVCC_FLAGS="-D__CUDA_NO_HALF_OPERATORS__"
+# error  cuda 9.0 "error: more than one operator "==" matches these operands" (https://github.com/torch/cutorch/issues/797)
+    insert export TORCH_NVCC_FLAGS="-D__CUDA_NO_HALF_OPERATORS__"
    
 ##torch
  http://torch.ch/docs/getting-started.html
