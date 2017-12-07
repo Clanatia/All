@@ -22,6 +22,9 @@
 ## gan Url
     https://github.com/hwalsuklee/tensorflow-generative-model-collections
    
+## inception net
+    https://github.com/tensorflow/models/tree/master/research/inception#getting-started
+    
 ## Ubunto 16 install nvidia cuda install
     https://marcnu.github.io/2016-08-17/Tensorflow-v0.10-installed-from-scratch-Ubuntu-16.04-CUDA8.0RC-cuDNN5.1-1080GTX/
   
