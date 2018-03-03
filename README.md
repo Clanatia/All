@@ -9,6 +9,13 @@
 ## Deep API  (파이선 , NodeJS, object c ..)
     https://deepai.org/ai-image-processing
      
+## Keras binarize net 
+    https://github.com/DingKe/BinaryNet
+
+## Tensorflow binarize net
+    https://github.com/jonathanmarek1/binarynet-tensorflow
+    https://github.com/itayhubara/BinaryNet.tf
+
 
 ## 딥러닝 코드 및 자료링크모음
     https://github.com/mrgloom/awesome-semantic-segmentation
