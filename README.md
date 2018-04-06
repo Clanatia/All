@@ -1,5 +1,8 @@
 # This Folder is etc files folder
 
+## Tensorflow whl(install file) link
+    https://mirrors.tuna.tsinghua.edu.cn/tensorflow/windows/gpu/
+
 ## Tensorflow 한글 영상 강의 자료
     https://drive.google.com/file/d/0B_AgfGkstx4kX2JPVDNab2c3NFU/view?usp=sharing
 
