@@ -152,6 +152,16 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 60 --slave /u
 ## Check failed: error == cudaSuccess (10 vs. 0)  invalid device ordinal
     gpu버전세팅빌드가 재대로 안되서 그렇다.
     caffe를 make할때 CUDA_ARCH 부분을 재대로 설정해주어야함.
+    CUDA_ARCH := -gencode arch=compute_20,code=sm_20 \
+    -gencode arch=compute_20,code=sm_21 \
+    -gencode arch=compute_30,code=sm_30 \
+    -gencode arch=compute_35,code=sm_35 \
+    -gencode arch=compute_50,code=sm_50 \
+    -gencode arch=compute_50,code=compute_50
+    -gencode=arch=compute_52,code=sm_52 \
+    -gencode=arch=compute_52,code=compute_52 \
+    -gencode=arch=compute_60,code=sm_60 \
+    -gencode=arch=compute_61,code=sm_61 \
 
 
 
