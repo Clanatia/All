@@ -101,3 +101,60 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 60 --slave /u
     conda install --yes cmake ninja numpy scipy protobuf==3.1.0 six scikit-image pyyaml pydotplus graphviz
     
     5. and caffe folder to your site_packages folder.
+    
+    
+##caffe 기초 설치법
+    https://gist.github.com/arundasan91/b432cb011d1c45b65222d0fac5f9232c
+
+    leveldb -> sudo apt-get install libleveldb-dev libsnappy-dev libhdf5-serial-dev
+
+    sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler
+    sudo apt-get install --no-install-recommends libboost-all-dev
+
+##makefile에서 python3.5일 경우
+    PYTHON_LIBRARIES ?= boost_python-py35 python3.5m
+    PYTHON_INCLUDE := /usr/include/python3.5m \
+	    	/usr/lib/python3.5/dist-packages/numpy/core/include
+
+
+    /src/caffe/cpm_data_transformer.cpp파일에서
+    opencv2/contrib/contrib.hpp -> opencv2/face.hpp
+
+
+##/usr/bin/ld: cannot find -lopencv_contrib
+    makefile에 opencv_contrib를 없에준다.(opencv3버전에서는 contrib가 없더라)
+
+##src/caffe/layers/hdf5_data_layer.cpp:13:18: fatal error: hdf5.h: 그런 파일이나 디렉터리가 없습니다
+
+    makefile에 추가
+    INCLUDE_DIRS += $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
+    LIBRARY_DIRS += $(PYTHON_LIB) /usr/local/lib /usr/lib /usr/lib/x86_64-linux-gnu/hdf5/serial/
+
+
+opencv_imgcodecs
+
+
+##undefined reference to `H5LTget_dataset_ndims'문제   http://ms-cheminfo.com/?q=node/106
+    caffe/cmake/Dependencies.cmake", at line 28
+    list(APPEND Caffe_LINKER_LIBS ${HDF5_LIBRARIES})
+    to
+    list(APPEND Caffe_LINKER_LIBS ${HDF5_LIBRARIES} ${HDF5_HL_LIBRARIES})
+
+
+##db_leveldb.cpp:16] Check failed: status.ok() Failed to open leveldb 
+    Fix this by change: src/caffe/test/test_layer_factory.cpp:line 33
+    if (iter->first == "Data") {
+    to
+    if(iter->first == "Data" || iter->first == "BoxData")
+
+
+sudo gedit ~/.bashrc
+export PYTHONPATH=/media/vit/DATA/Tensor/caffe_train/build/python:$PYTHONPATH
+
+
+#Check failed: error == cudaSuccess (10 vs. 0)  invalid device ordinal
+    gpu버전세팅빌드가 재대로 안되서 그렇다.
+    caffe를 make할때 CUDA_ARCH 부분을 재대로 설정해주어야함.
+
+
+
