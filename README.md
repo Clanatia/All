@@ -5,9 +5,12 @@
 
 ## Tensorflow 한글 영상 강의 자료
     https://drive.google.com/file/d/0B_AgfGkstx4kX2JPVDNab2c3NFU/view?usp=sharing
+    http://hunkim.github.io/ml/
 
-## 딥러닝 한글강의2
-    http://hunkim.github.io/ml/
+## 딥러닝 강의2
+    https://cs.nyu.edu/~yann/talks/lecun-ranzato-icml2013.pdf
+    https://docs.google.com/presentation/d/1HxGdeq8MPktHaPb-rlmYYQ723iWzq9ur6Gjo71YiG0Y/edit#slide=id.g12af6bd97a_0_289
+
 
 ## Deep API  (파이선 , NodeJS, object c ..)
     https://deepai.org/ai-image-processing
