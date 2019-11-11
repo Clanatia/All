@@ -6,6 +6,7 @@
 ## Tensorflow 한글 영상 강의 자료
     https://drive.google.com/file/d/0B_AgfGkstx4kX2JPVDNab2c3NFU/view?usp=sharing 
     https://hunkim.github.io/ml
+    (손풀이 강좌) https://www.youtube.com/watch?v=5T5a9zIp-ZM&list=PL1H8jIvbSo1q6PIzsWQeCLinUj_oPkLjc
     
 
 ## 딥러닝 강의2
