@@ -1,7 +1,7 @@
 # This Folder is etc files folder
 
 
-# Test Fundus Images
+# Test Fundus Images(워크숍용 테스트 안저사진)
 [Test Fundus Images](https://drive.google.com/file/d/1EPm6gHfaaFim7nzAGhsORmApvC_2nmlj/view?usp=sharing)
 
 
